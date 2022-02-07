@@ -1,0 +1,63 @@
+.ship__main__div {
+  position: relative;
+}
+.ship__header {
+  position: relative;
+  height: 15vh;
+  font-size: 4rem;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: darkcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form__box {
+  position: relative;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 70vh;
+  /* background-color: red; */
+  transform: translateX(-50%);
+}
+.image__box,
+.form__main__box {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  /* background-color: darksalmon; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image__box img {
+  height: 500px;
+  width: 500px;
+}
+
+.form {
+  position: relative;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.form div {
+  position: relative;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form div > * {
+  margin: 15px;
+}
+.form .text__fields {
+  position: relative;
+  width: 400px;
+}

@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.footer {
+  position: relative;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: cadetblue;
+  color: black;
+}
+
+.header__section {
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  background: cornsilk;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart__name {
+  position: relative;
+  text-align: center;
+  flex: 1;
+}
+.cart__name h1 {
+  position: relative;
+  font-size: 4rem;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: darkcyan;
+}
+.dynamicButton {
+  position: relative;
+  right: 40px;
+}
+.btn {
+  position: relative;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 140px;
+  height: 45px;
+  transition: all 0.2s;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.btn:hover {
+  background: royalblue;
+  color: white;
+  box-shadow: 3px 3px 3px 3px rgb(97, 128, 219);
+}
+.btn:active {
+  box-shadow: 2px 2px 2px 2px rgb(97, 128, 219);
+}
+.image__form__box {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form__division {
+  position: relative;
+  top: -30px;
+}
+img {
+  width: 400px;
+  height: 400px;
+}
+.text__fields {
+  position: relative;
+  width: 400px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.text__fields__signup {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.sign__button {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dailog__content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.childs {
+  position: relative;
+  margin-bottom: 20px;
+}

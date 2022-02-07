@@ -1,0 +1,9 @@
+.card__actions {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+/* .grid__container {
+  position: relative;
+  height: 100vh;
+} */
